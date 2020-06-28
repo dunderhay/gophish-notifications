@@ -23,7 +23,7 @@ Gophish added support for webhooks in release version 9.0. Several applications 
 2. Edit `to` and `from` fields.
 
 3. Run the webhook server:
-`./webhook --sercret <YourSecretHere>`
+`go run main.go --sercret=<YourSecretHere>`
 
 
 ## Todo
